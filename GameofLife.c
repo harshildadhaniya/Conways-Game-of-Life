@@ -46,8 +46,8 @@ void step(char* input, int n, int m){
         }
     }
 
-    /* The current array is encoded with 'B', 'D', '0', and ' '. */
-    /* This needs to be simplified to only '0' and ' '. */
+    /* The current array is encoded with 'B', 'D', '0', and '_'. */
+    /* This needs to be simplified to only '0' and '_'. */
 
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){
